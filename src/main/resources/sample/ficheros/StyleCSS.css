@@ -60,8 +60,7 @@
     -fx-text-fill: #000000;
 }
 
-.transparent{
-    -fx-background-color: transparent;
-    -fx-border-color: transparent;
-    -fx-border-width: 0;
+.HistorialPane{
+    -fx-background-color: #00000255;
+    -fx-background-radius: 15 15 5 5;
 }
