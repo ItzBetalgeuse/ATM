@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@StyleCSS.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ficheros.LoginController"><![CDATA[
+   ]]><TextField fx:id="CuentaField" layoutX="225.0" layoutY="141.0" promptText="Numero de cuenta"
+              styleClass="textfield-login" stylesheets="@StyleCSS.css"/>
+   <Button layoutX="255.0" layoutY="276.0" mnemonicParsing="false" onAction="#login"
+           stylesheets="@StyleCSS.css" text="Continuar" textFill="WHITE">
+      <font>
+         <Font name="System Bold" size="15.0"/>
+      </font>
+   </Button>
+   <PasswordField fx:id="Password" layoutX="225.0" layoutY="200.0" promptText="Contraseña" styleClass="textfield-login"
+                  stylesheets="@StyleCSS.css"/>
+   <Label layoutX="232.0" layoutY="74.0" text="Inicio de sesión" textAlignment="CENTER" textFill="WHITE">
+      <font>
+         <Font size="20.0"/>
+      </font>
+   </Label>
+</AnchorPane>

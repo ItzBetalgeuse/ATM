@@ -1,0 +1,67 @@
+.root{
+    -fx-background-color: #222;
+}
+
+.button{
+    -fx-background-color: #00000255;
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+}
+
+.button:hover{
+    -fx-background-color: #595959;
+    -fx-border-color: #FFFFFF
+}
+
+.LabelPane{
+    -fx-background-color: #00000255;
+    -fx-background-radius: 15;
+}
+
+.textfield-login{
+    -fx-background-color: #00000255;
+    -fx-border-color: transparent;
+    -fx-text-fill: #FFFFFF;
+}
+
+.ATMpane{
+    -fx-background-color: #00000255;
+    -fx-background-radius: 0 0 15 15;
+}
+
+.ATMPagePane{
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 15;
+}
+
+.button-retiro{
+    -fx-background-color: #00000255;
+    -fx-background-radius: 15;
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-text-fill: #FFFFFF;
+}
+
+.button-retiro:hover{
+    -fx-background-color: #ff0019;
+    -fx-text-fill: #FFFFFF;
+}
+
+.button-deposito{
+    -fx-background-color: #00000255;
+    -fx-background-radius: 15;
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-text-fill: #FFFFFF;
+}
+
+.button-deposito:hover{
+    -fx-background-color: #11ff00;
+    -fx-text-fill: #000000;
+}
+
+.transparent{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+}
